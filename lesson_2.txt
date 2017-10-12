@@ -10,8 +10,14 @@ The staging area is the intermediate. It helps to prep what is going to be commi
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can add a change to the staging area using git add. then using git status, you can see that single change in the staging area and the other changes waiting to be committed. it will visually give you a view of the single change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+When you make an experimental change that you aren't sure you want to keep.
+If you try going in multiple directions from a base of code to see which one works best.
+Branches allow for organization of those changes and allow you to keep things seperate but organized.
 
 How do the diagrams help you visualize the branch structure?
 
